@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+}
+h1{  font-size: 64px;
+  border-bottom:1px #006600 solid;
+  margin: 0;
+  padding:20px;
+  text-align: center;
+}
+ol{
+  border-right: 1px solid #006600;
+  width: 120px;
+  margin:0;
+  padding:20px;
+}
+#hanee{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+#hanee ol{
+  padding-left: 33px
+}
+#article{
+  padding-left: 25px;
+}
+@media(max-width:800px){
+  #hanee{
+    display: block;
+  }
+  ol{
+     border-right: none
+   }
+   h1{
+  border-bottom:none
+  }
+
+}
